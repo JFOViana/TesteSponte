@@ -1,0 +1,164 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.far {
+    color: #353839;
+}
+
+
+.crud-edit {
+    background-color: deepskyblue;
+    border: 3px solid deepskyblue;
+    color: white;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+    box-sizing: border-box;
+    width: auto;
+    transition: all .5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+    .crud-edit:hover {
+        background-color: #72d6f2;
+        text-decoration: none;
+        border-color: transparent;
+        color: white;
+    }
+
+.crud-delete {
+    background-color: #ff6961;
+    border: 3px solid #ff6961;
+    color: white;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+    box-sizing: border-box;
+    width: auto;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.crud-delete:hover{
+    background-color: #ef9991;
+    border-color: #ef9991;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.buttons {
+    background-color: #49bf9d;
+    border: 3px solid #49bf9d;
+    color: white;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+    box-sizing: border-box;
+    width: auto;
+    transition: all .5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .buttons:hover {
+        background-color: #5ddeb9;
+        border-color: transparent;
+        text-decoration: none;
+        color: white;
+    }
+
+.button-default-stroke {
+    background-color: white;
+    border-color: #efefef;
+    color: inherit;
+}
+
+    .button-default-stroke:hover {
+        color: #49bf9d;
+        border-color: #49bf9d;
+        background-color: white;
+    }
+
+
+li{
+    padding-left: 5px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #EEEFF2;
+    background-image: url(../NovaPasta/3784896.jpg);
+    background-position: right bottom;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
